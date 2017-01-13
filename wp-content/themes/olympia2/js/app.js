@@ -1,23 +1,26 @@
 var App = Vue.extend({});
 
-// Set up our router
-
+/* SETTING UP ROUTER */
 
 // create a component postList
 var postList = Vue.extend({
-	template:"<h1>Hello World Test</h1>";
+	template:"#post-list-template"
 });
 
-var router = new VueRouter();
-
-// no we need a root router  
-
-router.map({
-	'/':{
-		// define our component
-		component: postList
-	}
+var router = new VueRouter({
+	routes: [
+		{path: '/', component:postList}
+	]
 });
+
 
 // start router
-router.start(App, '#app');
+// Deprecated: router.start(App, '#app');
+
+
+// new
+new Vue({
+	el: '#app',
+	router: router,
+	template:'<router-view></router-view>'
+})
