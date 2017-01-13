@@ -14,11 +14,11 @@ var router = new VueRouter({
 });
 
 
-// start router
 // Deprecated: router.start(App, '#app');
+// https://vuejs.org/v2/guide/migration-vue-router.html#Router-Initialization
 
 
-// new
+/* START ROUTER */
 new Vue({
 	el: '#app',
 	router: router,
