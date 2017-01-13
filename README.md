@@ -1,7 +1,6 @@
 # Themeing with WP REST API, Vue.js, and WordPress
 
-- clone repo  
-- set up  
+Based on Ivan's Doric work.  Check him out <a href="http://watch-learn.com">here</a>
 
 ## Requirements:
 
@@ -44,6 +43,12 @@ All of these features are run when starting `gulp watch` except for image optimi
 
 1. Get WP REST API v2 plugin and activate  
 2. If your site has no content, use FakerNews and generate some categories.  
-3.
+3. You can go to the path http://localhost/YOURWORDPRESSSITE/wp-json/wp/v2/posts to view all posts.  
+
+Now the next step is to hook up all those posts from the REST API, to make it look like a grid view for users. (V from MVC).  
+
+### Listing Posts  
+
+
 
 
