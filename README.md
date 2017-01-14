@@ -10,6 +10,15 @@ Based on Ivan's Doric work.  Check him out <a href="http://watch-learn.com">here
 [Node.js](https://nodejs.org/)
 [Gulp.js](http://gulpjs.com/)
 
+Make sure Gulp installed in the right directory for mac,  you might have to debug:
+
+```bash
+npm config set prefix /usr/local 
+sudo npm install gulp -g
+
+``` 
+Source <a href="http://stackoverflow.com/questions/25090452/gulp-command-not-found-after-install">here</a>
+
 ## Installation
 
 Clone `olympia` folder into your themes directory. 
@@ -51,6 +60,8 @@ All of these features are run when starting `gulp watch` except for image optimi
 Now the next step is to hook up all those posts from the REST API, to make it look like a grid view for users. (V from MVC).  
 
 ### Listing Posts  
+
+
 
 
 
