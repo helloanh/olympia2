@@ -1,4 +1,7 @@
 # Themeing with WP REST API, Vue.js, and WordPress
+Jump Straight into /themes/olympia2/js directory for the core development, most of the root files are standard WP core.  
+
+
 
 Based on Ivan's Doric work.  Check him out <a href="http://watch-learn.com">here</a>
 
@@ -21,7 +24,7 @@ npm install
 
 If you don't want to have `package.json` and `gulpfile.js` in root directory you can leave them in the theme, and run `npm install` in theme directory. But in that case be sure to change the paths in `gulpfile.js`. You will mostly have to delete `/wp-content/themes/olympia/` from the paths.
 
-Run `glup watch`
+Run `gulp watch`
 
 ## Features
 
