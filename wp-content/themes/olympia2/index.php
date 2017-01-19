@@ -6,7 +6,9 @@
 	</div>
 
 	<template id="post-list-template">
-		<h1> Post List Title </h1>
+		<div v-for="post in posts">
+			<h2>{{post.title.rendered}}</h2>
+		</div>
 	</template>
     
 <?php get_footer(); ?>
